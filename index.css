@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f9fc;
+    color: #17233c;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 8%;
+    background: white;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1555a5;
+}
+
+.logo small {
+    display: block;
+    font-size: 11px;
+}
+
+main {
+    width: 85%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+.search {
+    background: white;
+    padding: 15px 20px;
+    border-radius: 30px;
+    margin: 25px 0;
+    box-shadow: 0 3px 15px #ddd;
+}
+
+.search input {
+    width: 85%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.search button {
+    border: none;
+    background: #1769d1;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 3px 10px #ddd;
+}
+
+.picture {
+    font-size: 55px;
+}
+
+.card h2 {
+    font-size: 18px;
+}
+
+.card p {
+    color: #777;
+}
+
+.card button {
+    border: none;
+    border-radius: 50%;
+    padding: 10px 15px;
+    background: #eaf2ff;
+    color: #1769d1;
+}
+
+.services {
+    background: white;
+    margin-top: 25px;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    gap: 20px;
+}
+
+.service-grid div {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.offer {
+    margin-top: 25px;
+    padding: 30px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #0867c9, #48b7ed);
+    color: white;
+}
+
+.offer button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+}
+
+.airlines {
+    margin: 25px 0;
+}
+
+.airlines span {
+    display: inline-block;
+    background: white;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+    box-shadow: 0 -2px 10px #ddd;
+}
+
+footer button {
+    border: none;
+    background: white;
+    cursor: pointer;
+}
